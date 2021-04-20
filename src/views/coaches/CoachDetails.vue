@@ -17,7 +17,7 @@
   <section>
     <base-card>
       <base-badge
-        v-fpr="area in areas"
+        v-for="area in areas"
         :key="area"
         :type="area"
         :title="area"
